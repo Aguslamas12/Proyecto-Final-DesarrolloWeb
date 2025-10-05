@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+Proyecto-DesarrolloWeb
+Este proyecto es una aplicación web desarrollada en React , con base de datos en Firebase y desplegada en Vercel .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Requisitos previos
+Antes de empezar, asegúrese de tener instalado:
 
-## Available Scripts
+Node.js (incluye npm)
+Git
+📥 Instalación y ejecución en local
+Clonar el repositorio
 
-In the project directory, you can run:
+git clone https://github.com/Daniiel24w/Project-DesarrolloWeb
+Entrar a la carpeta del proyecto
 
-### `npm start`
+cd Project-DesarrolloWeb
+Instalar dependencias
+(esto descargará React Router, React Hook Form, Firebase, etc. automáticamente)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install
+Iniciar el servidor de desarrollo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm start
+Se abrirá una ventana en tu navegador http://localhost:3000mostrando la aplicación.
 
-### `npm test`
+⚙️ Variables de entorno
+El proyecto utiliza Firebase . Para conectarse correctamente se necesita un archivo .enven la raíz con las credenciales de Firebase:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+REACT_APP_FIREBASE_API_KEY=AIzaSyCVhMl44pmPSv-G81GOKtgRvNtvovlswCs
+REACT_APP_FIREBASE_AUTH_DOMAIN=proyectodw-31c83.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=proyectodw-31c83
+REACT_APP_FIREBASE_STORAGE_BUCKET=proyectodw-31c83.firebasestorage.app  
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=679056837157
+REACT_APP_FIREBASE_APP_ID=1:679056837157:web:b4618ecf8629c9c6798dcc
+⚠️Este archivo .env no se suele subir a GitHub por seguridad. Cada usuario deberia de tener sus propias credenciales de firebase.
 
-### `npm run build`
+🌐 Despliegue
+El proyecto está desplegado en Vercel . Aún así se puede acceder desde mi proyecto de vercel: VercelProject . Para implementarlo manualmente en tu propia cuenta:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crear un proyecto en Vercel .
+Conecte el repositorio de GitHub.
+Configurar las variables de entorno en Configuración → Variables de entorno .
+Vercel detectará automáticamente que es un proyecto de React y hará el build.
+📚 Tecnologías usadas
+El proyecto utiliza las siguientes librerías y frameworks:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Reaccionar ( react, react-dom)
+DOM del enrutador React ( react-router-dom)
+Formulario de gancho de React ( react-hook-form)
+Firebase ( firebase)
+Bootstrap ( bootstrap)
+React Bootstrap ( react-bootstrap) Aunque utilizo los CDN del css y de los iconos de bootstrap
+Reaccionar Tostada Caliente ( react-hot-toast)
+Además de Vercel como plataforma de despliegue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 Autor
+Agustin Lamas
